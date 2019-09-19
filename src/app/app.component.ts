@@ -12,4 +12,6 @@ export class AppComponent  {
   constructor(private dataService: DataService){
 
   }
+
+  users=[{name: "karthick", age: "25"},{name: "Fred", age: 25}]
 }
